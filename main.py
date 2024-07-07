@@ -30,7 +30,6 @@ def get_twitch_access_token():
             'Content-Type': 'application/x-www-form-urlencoded'
         }
     )
-    print(response.json())
     response.raise_for_status()
     return response.json()['access_token']
 
