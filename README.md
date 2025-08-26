@@ -28,3 +28,9 @@ DISCORD_WEBHOOK_URL=<webhook url>
 # Run
 
 Run in your desired interval, but dont forget to set it in main.py. (default=15min)
+
+# example crontab
+
+```
+*/15 * * * * cd /opt/twitchbot && /opt/twitchbot/bin/python /opt/twitchbot/main.py
+```
