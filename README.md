@@ -1,8 +1,15 @@
 # Twitch-Clips-Bot
 
-Adds Clips from Twitch to your DC Channel
+Posts newly created clips from a Twitch Account to an Discord Channel for your community server e.g.
 
 # Setup
+
+
+* The get the broadcaster ID from the [TwitchAPI](https://dev.twitch.tv/docs/api/reference/#get-users) with the Username you want the ID from.
+
+* [Register an App on Twitch](https://dev.twitch.tv/docs/authentication/register-app/)
+
+* Create an [Discord Webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 
 * install dependencies: `pip install -f requirements.txt`
 * create .env file with:
